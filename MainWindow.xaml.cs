@@ -25,7 +25,7 @@ namespace ExamplePracWork13
         {
             InitializeComponent();
 
-            
+            CmbFilter.ItemsSource = ClassHelp.students;                         
 
             //один объект класса ClassLibrary
             ClassStudent library = new ClassStudent()
@@ -34,7 +34,7 @@ namespace ExamplePracWork13
                 Numbergroup = "ИСП.21.1А",
                 Oap = "4",
                 Mdk = "5",
-                Math = "4",
+                Mather = "4",
                 English = "5",
                 Tsi = "5"
             };

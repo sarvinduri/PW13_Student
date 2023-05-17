@@ -22,7 +22,7 @@ namespace ExamplePracWork13.Classes
         string numbergroup;
         string oap;
         string mdk;
-        string math;
+        string mather;
         string english;
         string tsi;
 
@@ -34,8 +34,8 @@ namespace ExamplePracWork13.Classes
         { get { return oap; } set { oap = value; } }
         public string Mdk
         { get { return mdk; } set { mdk = value; } }
-        public string Math
-        { get { return math; } set { math = value; } }
+        public string Mather
+        { get { return mather; } set { mather = value; } }
         public string English
         { get { return english; } set { english = value; } }
         public string Tsi
@@ -48,7 +48,7 @@ namespace ExamplePracWork13.Classes
             numbergroup = string.Empty;
             oap = string.Empty;
             mdk = string.Empty;
-            math = string.Empty;
+            mather = string.Empty;
             english = string.Empty;
             tsi = string.Empty;
         }

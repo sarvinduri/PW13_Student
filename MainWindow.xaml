@@ -73,7 +73,7 @@
                         Binding="{Binding Mdk}"/>
                     <DataGridTextColumn
                         Header="Математика" Width="*"
-                        Binding="{Binding Math}"/>
+                        Binding="{Binding Mather}"/>
                     <DataGridTextColumn
                         Header="Англ. яз." Width="*"
                         Binding="{Binding Engl}"/>

@@ -34,7 +34,7 @@ namespace ExamplePracWork13
                 Numbergroup = CmbGroup.Text,
                 Oap = TxbOAP.Text,
                 Mdk = TxbMDK.Text,
-                Math = TxbMath.Text,
+                Mather = TxbMather.Text,
                 English = TxbEngl.Text,
                 Tsi = TxbTSI.Text
             };
