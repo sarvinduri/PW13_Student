@@ -1,0 +1,56 @@
+﻿<Window x:Class="ExamplePracWork13.WindowAdd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamplePracWork13"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="WindowAdd" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center">
+                <TextBlock Text="Фамилия и иниц."/>
+                <TextBox Name="TxbFIO"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center">
+                <TextBlock Text="№ группы"/>
+                <!--<TextBox Name="TxbNumber"/>-->
+                <ComboBox Name="CmbGroup" Height="30" Width="200"
+                          Margin="5"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center">
+                <TextBlock Text="ОАП"/>
+                <TextBox Name="TxbOAP"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center">
+                <TextBlock Text="МДК.01.01"/>
+                <TextBox Name="TxbMDK"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center">
+                <TextBlock Text="Математика"/>
+                <TextBox Name="TxbMath"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center">
+                <TextBlock Text="Англ. яз."/>
+                <TextBox Name="TxbEngl"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center">
+                <TextBlock Text="ТСИ"/>
+                <TextBox Name="TxbTSI"/>
+            </StackPanel>
+            <Button Content="Добавить" 
+                    Name="BtnAddReader"
+                    Click="BtnAddReader_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
